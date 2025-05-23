@@ -101,10 +101,13 @@ body {
 }
 
 /* Back link */
-.back-link {
-    position: static;
-    display: inline-block;
+.back-link-wrapper {
+    text-align: center;
     margin-top: 30px;
+}
+
+.back-link {
+    display: inline-block;
     font-size: 18px;
     font-style: italic;
     font-weight: 500;
@@ -121,6 +124,7 @@ body {
     background-color: #edeccf;
     color: darkmagenta;
 }
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
