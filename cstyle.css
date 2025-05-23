@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: beige;
+}
+
+/* Overall layout */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Container holding both sections */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+/* Contact info on the left */
+.contact-left {
+    font-size: 1.5em;
+    width: 60%;
+    text-align: left;
+}
+
+.contact-left h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 3em;
+}
+
+.contact-left a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.contact-left a:hover {
+    text-decoration: underline;
+}
+
+/* CV section on the right */
+.cv-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv {
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    border: 2px solid #444;
+}
+
+/* Download button */
+.download-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #005bb5;
+}
+
+/* Social icons section */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: auto;
+}
+
+.social-icons img {
+    margin-left: 50px;
+    width: 60px;
+    height: auto;
+    transition: transform 0.2s;
+    border-radius: 3px solid #000;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Back link */
+.back-link {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    color: purple;
+    text-decoration: none;
+    background-color: #f7f6df;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px yellow;
+    border: 1px solid #dcdcdc;
+}
+
+.back-link:hover {
+    background-color: #edeccf;
+    color: darkmagenta;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-left, .cv-right {
+    width: 100%;
+  }
+
+  .contact-left {
+    font-size: 1.2em;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-icons img {
+    margin: 10px;
+    width: 40px;
+  }
+
+  .cv {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .back-link {
+    position: static;
+    margin-top: 30px;
+  }
+}

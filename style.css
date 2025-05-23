@@ -1,0 +1,93 @@
+
+/* Reset & Base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI Semibold', cursive, sans-serif;
+  background-color: beige;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 2px solid #ccc;
+}
+
+.name {
+  font-size: 5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 1.9em;
+  color: purple;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  min-height: calc(100vh - 100px); /* full height minus header */
+}
+
+.text-section {
+  width: 75%;
+  font-size: 1.5em;
+  line-height: 1.7;
+}
+
+.photo-section {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 650px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #444;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 3em;
+  }
+
+  .nav a {
+    margin-left: 0;
+    margin: 10px;
+    font-size: 1.2em;
+  }
+
+  .main-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .text-section, .photo-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 250px;
+    margin-top: 20px;
+  }
+}
