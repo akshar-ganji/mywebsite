@@ -34,7 +34,7 @@ body {
     border: 2px solid yellow;
     border-radius: 8px;
     text-decoration: none;
-    color: purple;
+    color: yellow;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
