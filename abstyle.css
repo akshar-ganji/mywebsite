@@ -28,9 +28,10 @@ body {
 
 /*back button*/
 .back-button {
+    text-align: center;
     font-size: 0.9em;
     padding: 6px 14px;
-    border: 2px solid purple;
+    border: 2px solid yellow;
     border-radius: 8px;
     text-decoration: none;
     color: purple;
