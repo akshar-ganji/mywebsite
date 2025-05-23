@@ -52,7 +52,7 @@ body {
 
 /* CV section on the right */
 .cv-right {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,7 @@ body {
 
 /* Download button */
 .download-btn {
-    margin-top: 55px;
+    margin-top: 35px;
     padding: 10px 20px;
     background-color: #0073e6;
     color: white;
