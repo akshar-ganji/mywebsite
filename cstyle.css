@@ -102,10 +102,9 @@ body {
 
 /* Back link */
 .back-link {
-    position: absolute;
-    bottom: 25px;
-    left: 20px;
-    margin-bottom: 50px;
+    position: static;
+    display: inline-block;
+    margin-top: 30px;
     font-size: 18px;
     font-style: italic;
     font-weight: 500;
