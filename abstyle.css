@@ -25,20 +25,23 @@ body {
     text-decoration: underline;
 }
 
-.link {
-    font-size: 1.5em;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
-    padding: 18px;  
-    border-radius: 100px;
-    box-shadow: 0 2px 8px;
-    margin-top: 30px;
+
+/*back button*/
+.back-button {
+    font-size: 0.9em;
+    padding: 6px 14px;
+    border: 2px solid purple;
+    border-radius: 8px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
-.link:hover {
-    color: darkgoldenrod;
+.back-button:hover {
+    background-color: #f0e0ff;
 }
+
 
 .int {
     margin: 50px;
