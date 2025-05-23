@@ -102,8 +102,9 @@ body {
 
 /* Back link */
 .back-link-wrapper {
-  text-align: left;
-  margin-top: 40px;
+    float: left;
+    text-align: left;
+    margin-top: 40px;
 }
 
 .back-link {
