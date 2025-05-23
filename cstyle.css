@@ -102,8 +102,18 @@ body {
 
 /* Back link */
 .back-link-wrapper {
+    width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Back Linka*/
+.back-link-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .back-link {
@@ -114,10 +124,11 @@ body {
     color: purple;
     text-decoration: none;
     background-color: #f7f6df;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border-radius: 40px;
     box-shadow: 0 2px 4px yellow;
     border: 1px solid #dcdcdc;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .back-link:hover {
